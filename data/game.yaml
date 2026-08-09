@@ -1,0 +1,19 @@
+game:
+  id: naturreservatet
+  version: 0.3.3
+  players:
+  - 2
+  - 3
+  - 4
+  duration_minutes:
+  - 15
+  - 30
+  category: tile-placement
+  prototype_status: first-playable
+  turns_per_player: 8
+  tile_count_total: 32
+  tile_count_by_players:
+    2: 16
+    3: 24
+    4: 32
+  animal_count: 6

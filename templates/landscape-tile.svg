@@ -1,0 +1,11 @@
+<!--
+Naturreservatet - mallbeskrivning för landskapsbrickor.
+Den faktiska placeringen genereras av scripts/build_landscape_tiles.py.
+Mått: 70 x 35 mm, två fält om 35 x 35 mm.
+Källor: data/tiles.yaml, data/style.yaml och assets/icons/*.svg.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="70mm" height="35mm" viewBox="0 0 70 35">
+  <rect width="35" height="35" fill="{{left_color}}"/>
+  <rect x="35" width="35" height="35" fill="{{right_color}}"/>
+  <!-- {{left_icon}}, {{right_icon}}, etiketter och ID infogas av byggscriptet. -->
+</svg>

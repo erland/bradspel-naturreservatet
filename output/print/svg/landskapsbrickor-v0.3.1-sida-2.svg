@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="210mm" viewBox="0 0 297 210">
+<rect width="297" height="210" fill="#fff"/>
+<text x="12" y="10" font-family="Arial,sans-serif" font-size="6" font-weight="700">NATURRESERVATET - LANDSKAPSBRICKOR v0.3.1</text>
+<text x="12" y="16" font-family="Arial,sans-serif" font-size="3.8">Sida 2/3 - 70 x 35 mm - skriv ut i faktisk storlek (100 %)</text>
+<g>
+<rect x="35.5" y="27" width="35" height="35" rx="2" fill="#B9DDF3" stroke="#222" stroke-width="0.45"/>
+<rect x="70.5" y="27" width="35" height="35" rx="2" fill="#F7E28A" stroke="#222" stroke-width="0.45"/>
+<line x1="70.5" y1="27" x2="70.5" y2="62" stroke="#555" stroke-width="0.35"/>
+<rect x="37.3" y="28.8" width="11" height="5" rx="1.3" fill="#fff" fill-opacity="0.9"/>
+<text x="42.8" y="32.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="3.2" font-weight="700">NR-13</text>
+<g transform="translate(53.0,42) scale(0.406)"><path d="M0,-18 C-8,-7 -13,0 -13,8 C-13,17 -7,22 0,22 C7,22 13,17 13,8 C13,0 8,-7 0,-18 Z"
+        fill="#7FC8F8" stroke="#1C69A7" stroke-width="2"/>
+  <path d="M-7,10 C-2,6 3,13 8,8" fill="none" stroke="#1C69A7" stroke-width="2"/></g>
+<g transform="translate(88.0,42) scale(0.3654)"><g stroke="#5C7517" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M-11,18 Q-10,2 -6,-10 M-5,18 Q-3,0 0,-14 M1,18 Q2,2 7,-12 M7,18 Q9,4 12,-7"/>
+    <path d="M-7,4 Q-12,0 -13,-5 M0,2 Q5,-2 7,-7 M6,5 Q11,1 13,-3"/>
+  </g></g>
+<text x="53.0" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Sjö</text>
+<text x="88.0" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Äng</text>
+</g><g>
+<rect x="113.5" y="27" width="35" height="35" rx="2" fill="#B9DDF3" stroke="#222" stroke-width="0.45"/>
+<rect x="148.5" y="27" width="35" height="35" rx="2" fill="#D9D9D9" stroke="#222" stroke-width="0.45"/>
+<line x1="148.5" y1="27" x2="148.5" y2="62" stroke="#555" stroke-width="0.35"/>
+<rect x="115.3" y="28.8" width="11" height="5" rx="1.3" fill="#fff" fill-opacity="0.9"/>
+<text x="120.8" y="32.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="3.2" font-weight="700">NR-14</text>
+<g transform="translate(131.0,42) scale(0.406)"><path d="M0,-18 C-8,-7 -13,0 -13,8 C-13,17 -7,22 0,22 C7,22 13,17 13,8 C13,0 8,-7 0,-18 Z"
+        fill="#7FC8F8" stroke="#1C69A7" stroke-width="2"/>
+  <path d="M-7,10 C-2,6 3,13 8,8" fill="none" stroke="#1C69A7" stroke-width="2"/></g>
+<g transform="translate(166.0,42) scale(0.406)"><path d="M-17,18 L-4,-12 L7,8 L13,-4 L21,18 Z" fill="#666" stroke="#222" stroke-width="1.6"/>
+  <path d="M-9,0 L-4,-12 L1,0 L-2,-2 Z" fill="#fff"/>
+  <path d="M8,3 L13,-4 L17,5 L13,2 Z" fill="#fff"/></g>
+<text x="131.0" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Sjö</text>
+<text x="166.0" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Berg</text>
+</g><g>
+<rect x="191.5" y="27" width="35" height="35" rx="2" fill="#B9DDF3" stroke="#222" stroke-width="0.45"/>
+<rect x="226.5" y="27" width="35" height="35" rx="2" fill="#A9D9DF" stroke="#222" stroke-width="0.45"/>
+<line x1="226.5" y1="27" x2="226.5" y2="62" stroke="#555" stroke-width="0.35"/>
+<rect x="193.3" y="28.8" width="11" height="5" rx="1.3" fill="#fff" fill-opacity="0.9"/>
+<text x="198.8" y="32.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="3.2" font-weight="700">NR-15</text>
+<g transform="translate(209.0,42) scale(0.406)"><path d="M0,-18 C-8,-7 -13,0 -13,8 C-13,17 -7,22 0,22 C7,22 13,17 13,8 C13,0 8,-7 0,-18 Z"
+        fill="#7FC8F8" stroke="#1C69A7" stroke-width="2"/>
+  <path d="M-7,10 C-2,6 3,13 8,8" fill="none" stroke="#1C69A7" stroke-width="2"/></g>
+<g transform="translate(244.0,42) scale(0.406)"><path d="M-16,16 C-9,13 -3,18 3,15 C9,12 13,16 17,14" fill="none" stroke="#247A9B" stroke-width="2"/>
+  <path d="M-15,21 C-8,18 -2,23 4,20 C10,17 13,21 17,19" fill="none" stroke="#247A9B" stroke-width="2"/>
+  <g stroke="#456B42" stroke-width="2" stroke-linecap="round">
+    <path d="M-10,15 L-10,-7 M0,15 L0,-13 M10,15 L10,-5"/>
+    <path d="M-10,1 L-15,-4 M0,-2 L5,-8 M10,3 L15,-2"/>
+  </g>
+  <g fill="#6A3D2B" stroke="#2A1D16" stroke-width="1">
+    <ellipse cx="-10" cy="-9" rx="2.5" ry="6"/>
+    <ellipse cx="0" cy="-15" rx="2.5" ry="6"/>
+    <ellipse cx="10" cy="-7" rx="2.5" ry="6"/>
+  </g></g>
+<text x="209.0" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Sjö</text>
+<text x="244.0" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Våtmark</text>
+</g><g>
+<rect x="35.5" y="70" width="35" height="35" rx="2" fill="#B9DDF3" stroke="#222" stroke-width="0.45"/>
+<rect x="70.5" y="70" width="35" height="35" rx="2" fill="#A9D9DF" stroke="#222" stroke-width="0.45"/>
+<line x1="70.5" y1="70" x2="70.5" y2="105" stroke="#555" stroke-width="0.35"/>
+<rect x="37.3" y="71.8" width="11" height="5" rx="1.3" fill="#fff" fill-opacity="0.9"/>
+<text x="42.8" y="75.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="3.2" font-weight="700">NR-16</text>
+<g transform="translate(53.0,85) scale(0.406)"><path d="M0,-18 C-8,-7 -13,0 -13,8 C-13,17 -7,22 0,22 C7,22 13,17 13,8 C13,0 8,-7 0,-18 Z"
+        fill="#7FC8F8" stroke="#1C69A7" stroke-width="2"/>
+  <path d="M-7,10 C-2,6 3,13 8,8" fill="none" stroke="#1C69A7" stroke-width="2"/></g>
+<g transform="translate(88.0,85) scale(0.406)"><path d="M-16,16 C-9,13 -3,18 3,15 C9,12 13,16 17,14" fill="none" stroke="#247A9B" stroke-width="2"/>
+  <path d="M-15,21 C-8,18 -2,23 4,20 C10,17 13,21 17,19" fill="none" stroke="#247A9B" stroke-width="2"/>
+  <g stroke="#456B42" stroke-width="2" stroke-linecap="round">
+    <path d="M-10,15 L-10,-7 M0,15 L0,-13 M10,15 L10,-5"/>
+    <path d="M-10,1 L-15,-4 M0,-2 L5,-8 M10,3 L15,-2"/>
+  </g>
+  <g fill="#6A3D2B" stroke="#2A1D16" stroke-width="1">
+    <ellipse cx="-10" cy="-9" rx="2.5" ry="6"/>
+    <ellipse cx="0" cy="-15" rx="2.5" ry="6"/>
+    <ellipse cx="10" cy="-7" rx="2.5" ry="6"/>
+  </g></g>
+<text x="53.0" y="101" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Sjö</text>
+<text x="88.0" y="101" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Våtmark</text>
+</g><g>
+<rect x="113.5" y="70" width="35" height="35" rx="2" fill="#B9DDF3" stroke="#222" stroke-width="0.45"/>
+<rect x="148.5" y="70" width="35" height="35" rx="2" fill="#A9D9DF" stroke="#222" stroke-width="0.45"/>
+<line x1="148.5" y1="70" x2="148.5" y2="105" stroke="#555" stroke-width="0.35"/>
+<rect x="115.3" y="71.8" width="11" height="5" rx="1.3" fill="#fff" fill-opacity="0.9"/>
+<text x="120.8" y="75.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="3.2" font-weight="700">NR-17</text>
+<g transform="translate(131.0,85) scale(0.406)"><path d="M0,-18 C-8,-7 -13,0 -13,8 C-13,17 -7,22 0,22 C7,22 13,17 13,8 C13,0 8,-7 0,-18 Z"
+        fill="#7FC8F8" stroke="#1C69A7" stroke-width="2"/>
+  <path d="M-7,10 C-2,6 3,13 8,8" fill="none" stroke="#1C69A7" stroke-width="2"/></g>
+<g transform="translate(166.0,85) scale(0.406)"><path d="M-16,16 C-9,13 -3,18 3,15 C9,12 13,16 17,14" fill="none" stroke="#247A9B" stroke-width="2"/>
+  <path d="M-15,21 C-8,18 -2,23 4,20 C10,17 13,21 17,19" fill="none" stroke="#247A9B" stroke-width="2"/>
+  <g stroke="#456B42" stroke-width="2" stroke-linecap="round">
+    <path d="M-10,15 L-10,-7 M0,15 L0,-13 M10,15 L10,-5"/>
+    <path d="M-10,1 L-15,-4 M0,-2 L5,-8 M10,3 L15,-2"/>
+  </g>
+  <g fill="#6A3D2B" stroke="#2A1D16" stroke-width="1">
+    <ellipse cx="-10" cy="-9" rx="2.5" ry="6"/>
+    <ellipse cx="0" cy="-15" rx="2.5" ry="6"/>
+    <ellipse cx="10" cy="-7" rx="2.5" ry="6"/>
+  </g></g>
+<text x="131.0" y="101" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Sjö</text>
+<text x="166.0" y="101" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Våtmark</text>
+</g><g>
+<rect x="191.5" y="70" width="35" height="35" rx="2" fill="#F7E28A" stroke="#222" stroke-width="0.45"/>
+<rect x="226.5" y="70" width="35" height="35" rx="2" fill="#D9D9D9" stroke="#222" stroke-width="0.45"/>
+<line x1="226.5" y1="70" x2="226.5" y2="105" stroke="#555" stroke-width="0.35"/>
+<rect x="193.3" y="71.8" width="11" height="5" rx="1.3" fill="#fff" fill-opacity="0.9"/>
+<text x="198.8" y="75.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="3.2" font-weight="700">NR-18</text>
+<g transform="translate(209.0,85) scale(0.3654)"><g stroke="#5C7517" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M-11,18 Q-10,2 -6,-10 M-5,18 Q-3,0 0,-14 M1,18 Q2,2 7,-12 M7,18 Q9,4 12,-7"/>
+    <path d="M-7,4 Q-12,0 -13,-5 M0,2 Q5,-2 7,-7 M6,5 Q11,1 13,-3"/>
+  </g></g>
+<g transform="translate(244.0,85) scale(0.406)"><path d="M-17,18 L-4,-12 L7,8 L13,-4 L21,18 Z" fill="#666" stroke="#222" stroke-width="1.6"/>
+  <path d="M-9,0 L-4,-12 L1,0 L-2,-2 Z" fill="#fff"/>
+  <path d="M8,3 L13,-4 L17,5 L13,2 Z" fill="#fff"/></g>
+<text x="209.0" y="101" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Äng</text>
+<text x="244.0" y="101" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Berg</text>
+</g><g>
+<rect x="35.5" y="113" width="35" height="35" rx="2" fill="#F7E28A" stroke="#222" stroke-width="0.45"/>
+<rect x="70.5" y="113" width="35" height="35" rx="2" fill="#A9D9DF" stroke="#222" stroke-width="0.45"/>
+<line x1="70.5" y1="113" x2="70.5" y2="148" stroke="#555" stroke-width="0.35"/>
+<rect x="37.3" y="114.8" width="11" height="5" rx="1.3" fill="#fff" fill-opacity="0.9"/>
+<text x="42.8" y="118.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="3.2" font-weight="700">NR-19</text>
+<g transform="translate(53.0,128) scale(0.3654)"><g stroke="#5C7517" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M-11,18 Q-10,2 -6,-10 M-5,18 Q-3,0 0,-14 M1,18 Q2,2 7,-12 M7,18 Q9,4 12,-7"/>
+    <path d="M-7,4 Q-12,0 -13,-5 M0,2 Q5,-2 7,-7 M6,5 Q11,1 13,-3"/>
+  </g></g>
+<g transform="translate(88.0,128) scale(0.406)"><path d="M-16,16 C-9,13 -3,18 3,15 C9,12 13,16 17,14" fill="none" stroke="#247A9B" stroke-width="2"/>
+  <path d="M-15,21 C-8,18 -2,23 4,20 C10,17 13,21 17,19" fill="none" stroke="#247A9B" stroke-width="2"/>
+  <g stroke="#456B42" stroke-width="2" stroke-linecap="round">
+    <path d="M-10,15 L-10,-7 M0,15 L0,-13 M10,15 L10,-5"/>
+    <path d="M-10,1 L-15,-4 M0,-2 L5,-8 M10,3 L15,-2"/>
+  </g>
+  <g fill="#6A3D2B" stroke="#2A1D16" stroke-width="1">
+    <ellipse cx="-10" cy="-9" rx="2.5" ry="6"/>
+    <ellipse cx="0" cy="-15" rx="2.5" ry="6"/>
+    <ellipse cx="10" cy="-7" rx="2.5" ry="6"/>
+  </g></g>
+<text x="53.0" y="144" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Äng</text>
+<text x="88.0" y="144" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Våtmark</text>
+</g><g>
+<rect x="113.5" y="113" width="35" height="35" rx="2" fill="#F7E28A" stroke="#222" stroke-width="0.45"/>
+<rect x="148.5" y="113" width="35" height="35" rx="2" fill="#A9D9DF" stroke="#222" stroke-width="0.45"/>
+<line x1="148.5" y1="113" x2="148.5" y2="148" stroke="#555" stroke-width="0.35"/>
+<rect x="115.3" y="114.8" width="11" height="5" rx="1.3" fill="#fff" fill-opacity="0.9"/>
+<text x="120.8" y="118.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="3.2" font-weight="700">NR-20</text>
+<g transform="translate(131.0,128) scale(0.3654)"><g stroke="#5C7517" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M-11,18 Q-10,2 -6,-10 M-5,18 Q-3,0 0,-14 M1,18 Q2,2 7,-12 M7,18 Q9,4 12,-7"/>
+    <path d="M-7,4 Q-12,0 -13,-5 M0,2 Q5,-2 7,-7 M6,5 Q11,1 13,-3"/>
+  </g></g>
+<g transform="translate(166.0,128) scale(0.406)"><path d="M-16,16 C-9,13 -3,18 3,15 C9,12 13,16 17,14" fill="none" stroke="#247A9B" stroke-width="2"/>
+  <path d="M-15,21 C-8,18 -2,23 4,20 C10,17 13,21 17,19" fill="none" stroke="#247A9B" stroke-width="2"/>
+  <g stroke="#456B42" stroke-width="2" stroke-linecap="round">
+    <path d="M-10,15 L-10,-7 M0,15 L0,-13 M10,15 L10,-5"/>
+    <path d="M-10,1 L-15,-4 M0,-2 L5,-8 M10,3 L15,-2"/>
+  </g>
+  <g fill="#6A3D2B" stroke="#2A1D16" stroke-width="1">
+    <ellipse cx="-10" cy="-9" rx="2.5" ry="6"/>
+    <ellipse cx="0" cy="-15" rx="2.5" ry="6"/>
+    <ellipse cx="10" cy="-7" rx="2.5" ry="6"/>
+  </g></g>
+<text x="131.0" y="144" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Äng</text>
+<text x="166.0" y="144" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Våtmark</text>
+</g><g>
+<rect x="191.5" y="113" width="35" height="35" rx="2" fill="#D9D9D9" stroke="#222" stroke-width="0.45"/>
+<rect x="226.5" y="113" width="35" height="35" rx="2" fill="#A9D9DF" stroke="#222" stroke-width="0.45"/>
+<line x1="226.5" y1="113" x2="226.5" y2="148" stroke="#555" stroke-width="0.35"/>
+<rect x="193.3" y="114.8" width="11" height="5" rx="1.3" fill="#fff" fill-opacity="0.9"/>
+<text x="198.8" y="118.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="3.2" font-weight="700">NR-21</text>
+<g transform="translate(209.0,128) scale(0.406)"><path d="M-17,18 L-4,-12 L7,8 L13,-4 L21,18 Z" fill="#666" stroke="#222" stroke-width="1.6"/>
+  <path d="M-9,0 L-4,-12 L1,0 L-2,-2 Z" fill="#fff"/>
+  <path d="M8,3 L13,-4 L17,5 L13,2 Z" fill="#fff"/></g>
+<g transform="translate(244.0,128) scale(0.406)"><path d="M-16,16 C-9,13 -3,18 3,15 C9,12 13,16 17,14" fill="none" stroke="#247A9B" stroke-width="2"/>
+  <path d="M-15,21 C-8,18 -2,23 4,20 C10,17 13,21 17,19" fill="none" stroke="#247A9B" stroke-width="2"/>
+  <g stroke="#456B42" stroke-width="2" stroke-linecap="round">
+    <path d="M-10,15 L-10,-7 M0,15 L0,-13 M10,15 L10,-5"/>
+    <path d="M-10,1 L-15,-4 M0,-2 L5,-8 M10,3 L15,-2"/>
+  </g>
+  <g fill="#6A3D2B" stroke="#2A1D16" stroke-width="1">
+    <ellipse cx="-10" cy="-9" rx="2.5" ry="6"/>
+    <ellipse cx="0" cy="-15" rx="2.5" ry="6"/>
+    <ellipse cx="10" cy="-7" rx="2.5" ry="6"/>
+  </g></g>
+<text x="209.0" y="144" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Berg</text>
+<text x="244.0" y="144" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Våtmark</text>
+</g><g>
+<rect x="35.5" y="156" width="35" height="35" rx="2" fill="#C8E3A0" stroke="#222" stroke-width="0.45"/>
+<rect x="70.5" y="156" width="35" height="35" rx="2" fill="#C8E3A0" stroke="#222" stroke-width="0.45"/>
+<line x1="70.5" y1="156" x2="70.5" y2="191" stroke="#555" stroke-width="0.35"/>
+<rect x="37.3" y="157.8" width="11" height="5" rx="1.3" fill="#fff" fill-opacity="0.9"/>
+<text x="42.8" y="161.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="3.2" font-weight="700">NR-22</text>
+<g transform="translate(53.0,171) scale(0.406)"><rect x="-2" y="10" width="4" height="9" rx="1" fill="#6B3E1E"/>
+  <path d="M0,-18 L-11,1 L-6,1 L-13,11 L13,11 L6,1 L11,1 Z"
+        fill="#2F7D32" stroke="#173D1A" stroke-width="1.5"/></g>
+<g transform="translate(88.0,171) scale(0.406)"><rect x="-2" y="10" width="4" height="9" rx="1" fill="#6B3E1E"/>
+  <path d="M0,-18 L-11,1 L-6,1 L-13,11 L13,11 L6,1 L11,1 Z"
+        fill="#2F7D32" stroke="#173D1A" stroke-width="1.5"/></g>
+<text x="53.0" y="187" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Skog</text>
+<text x="88.0" y="187" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Skog</text>
+</g><g>
+<rect x="113.5" y="156" width="35" height="35" rx="2" fill="#B9DDF3" stroke="#222" stroke-width="0.45"/>
+<rect x="148.5" y="156" width="35" height="35" rx="2" fill="#B9DDF3" stroke="#222" stroke-width="0.45"/>
+<line x1="148.5" y1="156" x2="148.5" y2="191" stroke="#555" stroke-width="0.35"/>
+<rect x="115.3" y="157.8" width="11" height="5" rx="1.3" fill="#fff" fill-opacity="0.9"/>
+<text x="120.8" y="161.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="3.2" font-weight="700">NR-23</text>
+<g transform="translate(131.0,171) scale(0.406)"><path d="M0,-18 C-8,-7 -13,0 -13,8 C-13,17 -7,22 0,22 C7,22 13,17 13,8 C13,0 8,-7 0,-18 Z"
+        fill="#7FC8F8" stroke="#1C69A7" stroke-width="2"/>
+  <path d="M-7,10 C-2,6 3,13 8,8" fill="none" stroke="#1C69A7" stroke-width="2"/></g>
+<g transform="translate(166.0,171) scale(0.406)"><path d="M0,-18 C-8,-7 -13,0 -13,8 C-13,17 -7,22 0,22 C7,22 13,17 13,8 C13,0 8,-7 0,-18 Z"
+        fill="#7FC8F8" stroke="#1C69A7" stroke-width="2"/>
+  <path d="M-7,10 C-2,6 3,13 8,8" fill="none" stroke="#1C69A7" stroke-width="2"/></g>
+<text x="131.0" y="187" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Sjö</text>
+<text x="166.0" y="187" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Sjö</text>
+</g><g>
+<rect x="191.5" y="156" width="35" height="35" rx="2" fill="#F7E28A" stroke="#222" stroke-width="0.45"/>
+<rect x="226.5" y="156" width="35" height="35" rx="2" fill="#F7E28A" stroke="#222" stroke-width="0.45"/>
+<line x1="226.5" y1="156" x2="226.5" y2="191" stroke="#555" stroke-width="0.35"/>
+<rect x="193.3" y="157.8" width="11" height="5" rx="1.3" fill="#fff" fill-opacity="0.9"/>
+<text x="198.8" y="161.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="3.2" font-weight="700">NR-24</text>
+<g transform="translate(209.0,171) scale(0.3654)"><g stroke="#5C7517" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M-11,18 Q-10,2 -6,-10 M-5,18 Q-3,0 0,-14 M1,18 Q2,2 7,-12 M7,18 Q9,4 12,-7"/>
+    <path d="M-7,4 Q-12,0 -13,-5 M0,2 Q5,-2 7,-7 M6,5 Q11,1 13,-3"/>
+  </g></g>
+<g transform="translate(244.0,171) scale(0.3654)"><g stroke="#5C7517" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M-11,18 Q-10,2 -6,-10 M-5,18 Q-3,0 0,-14 M1,18 Q2,2 7,-12 M7,18 Q9,4 12,-7"/>
+    <path d="M-7,4 Q-12,0 -13,-5 M0,2 Q5,-2 7,-7 M6,5 Q11,1 13,-3"/>
+  </g></g>
+<text x="209.0" y="187" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Äng</text>
+<text x="244.0" y="187" text-anchor="middle" font-family="Arial,sans-serif" font-size="4.4" font-weight="700">Äng</text>
+</g>
+</svg>

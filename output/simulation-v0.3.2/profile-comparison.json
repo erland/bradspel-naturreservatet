@@ -1,0 +1,90 @@
+{
+  "balanced_vs_balanced": {
+    "games": 80,
+    "profiles": [
+      "balanced",
+      "balanced"
+    ],
+    "ties": 22,
+    "tie_rate": 0.275,
+    "winner_counts": {
+      "Spelare B": 26,
+      "Spelare A": 32
+    },
+    "start_player_win_rate_non_ties": 0.5862068965517241,
+    "mean_score_a": 28.45,
+    "mean_score_b": 28.175,
+    "mean_animals_a": 5.9,
+    "mean_animals_b": 5.85
+  },
+  "greedy_vs_balanced": {
+    "games": 80,
+    "profiles": [
+      "greedy",
+      "balanced"
+    ],
+    "ties": 23,
+    "tie_rate": 0.2875,
+    "winner_counts": {
+      "Spelare B": 22,
+      "Spelare A": 35
+    },
+    "start_player_win_rate_non_ties": 0.6491228070175439,
+    "mean_score_a": 28.45,
+    "mean_score_b": 28.3,
+    "mean_animals_a": 5.8375,
+    "mean_animals_b": 5.8875
+  },
+  "balanced_vs_greedy": {
+    "games": 80,
+    "profiles": [
+      "balanced",
+      "greedy"
+    ],
+    "ties": 16,
+    "tie_rate": 0.2,
+    "winner_counts": {
+      "Spelare B": 38,
+      "Spelare A": 26
+    },
+    "start_player_win_rate_non_ties": 0.578125,
+    "mean_score_a": 28.375,
+    "mean_score_b": 28.3375,
+    "mean_animals_a": 5.925,
+    "mean_animals_b": 5.85
+  },
+  "random_vs_balanced": {
+    "games": 80,
+    "profiles": [
+      "random",
+      "balanced"
+    ],
+    "ties": 0,
+    "tie_rate": 0.0,
+    "winner_counts": {
+      "Spelare B": 80
+    },
+    "start_player_win_rate_non_ties": 0.5,
+    "mean_score_a": 9.75,
+    "mean_score_b": 28.625,
+    "mean_animals_a": 2.5625,
+    "mean_animals_b": 5.9
+  },
+  "balanced_vs_random": {
+    "games": 80,
+    "profiles": [
+      "balanced",
+      "random"
+    ],
+    "ties": 0,
+    "tie_rate": 0.0,
+    "winner_counts": {
+      "Spelare A": 80
+    },
+    "start_player_win_rate_non_ties": 0.5,
+    "mean_score_a": 28.575,
+    "mean_score_b": 11.5625,
+    "mean_animals_a": 5.9125,
+    "mean_animals_b": 2.8625
+  }
+}

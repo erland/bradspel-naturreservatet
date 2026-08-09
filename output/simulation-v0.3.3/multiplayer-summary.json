@@ -1,0 +1,67 @@
+{
+  "three_players": {
+    "player_count": 3,
+    "games": 30,
+    "tie_rate": 0.5,
+    "start_player_win_rate_non_ties": 0.2,
+    "seat_win_counts": {
+      "Spelare B": 7,
+      "Spelare C": 7,
+      "Spelare A": 1
+    },
+    "seat_mean_scores": {
+      "Spelare A": 28,
+      "Spelare B": 28.3,
+      "Spelare C": 28.366666666666667
+    },
+    "seat_mean_animals": {
+      "Spelare A": 5.9,
+      "Spelare B": 5.933333333333334,
+      "Spelare C": 5.933333333333334
+    },
+    "animal_rates": {
+      "baver": 0.9666666666666667,
+      "fiskgjuse": 0.9888888888888889,
+      "groda": 1.0,
+      "lo": 0.9666666666666667,
+      "radjur": 1.0,
+      "trana": 1.0
+    },
+    "overall_mean_score": 28.22222222222222,
+    "overall_mean_animals": 5.9222222222222225
+  },
+  "four_players": {
+    "player_count": 4,
+    "games": 30,
+    "tie_rate": 0.5666666666666667,
+    "start_player_win_rate_non_ties": 0.46153846153846156,
+    "seat_win_counts": {
+      "Spelare B": 3,
+      "Spelare D": 5,
+      "Spelare C": 3,
+      "Spelare A": 2
+    },
+    "seat_mean_scores": {
+      "Spelare A": 27.866666666666667,
+      "Spelare B": 28.1,
+      "Spelare C": 27.833333333333332,
+      "Spelare D": 27.866666666666667
+    },
+    "seat_mean_animals": {
+      "Spelare A": 5.833333333333333,
+      "Spelare B": 5.9,
+      "Spelare C": 5.866666666666666,
+      "Spelare D": 5.833333333333333
+    },
+    "animal_rates": {
+      "baver": 0.9166666666666666,
+      "fiskgjuse": 1.0,
+      "groda": 1.0,
+      "lo": 0.9583333333333334,
+      "radjur": 0.9916666666666667,
+      "trana": 0.9916666666666667
+    },
+    "overall_mean_score": 27.916666666666668,
+    "overall_mean_animals": 5.858333333333333
+  }
+}

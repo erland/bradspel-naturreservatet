@@ -1,0 +1,58 @@
+version: 0.3.3
+component: reference-card-v2
+format: A6
+animals:
+- id: groda
+  points: 2
+  pattern:
+  - - Sjö
+    - Våtmark
+- id: radjur
+  points: 2
+  pattern:
+  - - Äng
+    - Skog
+- id: baver
+  points: 4
+  pattern:
+  - - Sjö
+    - Sjö
+  - - null
+    - Skog
+- id: trana
+  points: 4
+  pattern:
+  - - null
+    - Sjö
+  - - Äng
+    - Våtmark
+- id: lo
+  points: 5
+  pattern:
+  - - Skog
+    - Berg
+    - Skog
+- id: fiskgjuse
+  points: 6
+  pattern:
+  - - null
+    - Skog
+    - null
+  - - Valfri
+    - Sjö
+    - Valfri
+  - - null
+    - Valfri
+    - null
+layout:
+  terrain_cell_mm: 9
+  row_heights_mm:
+  - 15
+  - 15
+  - 22
+  - 22
+  - 15
+  - 29
+  note: Radhöjderna följer exempelens antal rader så naturfälten kan ha samma storlek.
+legend:
+  Valfri: '? = valfri naturtyp'

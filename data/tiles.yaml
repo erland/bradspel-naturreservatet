@@ -1,0 +1,41 @@
+tiles:
+  - {id: NR-01, a: Skog, b: Sjö}
+  - {id: NR-02, a: Skog, b: Sjö}
+  - {id: NR-03, a: Skog, b: Sjö}
+  - {id: NR-04, a: Skog, b: Äng}
+  - {id: NR-05, a: Skog, b: Äng}
+  - {id: NR-06, a: Skog, b: Äng}
+  - {id: NR-07, a: Skog, b: Berg}
+  - {id: NR-08, a: Skog, b: Berg}
+  - {id: NR-09, a: Skog, b: Berg}
+  - {id: NR-10, a: Skog, b: Våtmark}
+  - {id: NR-11, a: Skog, b: Våtmark}
+  - {id: NR-12, a: Sjö, b: Äng}
+  - {id: NR-13, a: Sjö, b: Äng}
+  - {id: NR-14, a: Sjö, b: Berg}
+  - {id: NR-15, a: Sjö, b: Våtmark}
+  - {id: NR-16, a: Sjö, b: Våtmark}
+  - {id: NR-17, a: Sjö, b: Våtmark}
+  - {id: NR-18, a: Äng, b: Berg}
+  - {id: NR-19, a: Äng, b: Våtmark}
+  - {id: NR-20, a: Äng, b: Våtmark}
+  - {id: NR-21, a: Berg, b: Våtmark}
+  - {id: NR-22, a: Skog, b: Skog}
+  - {id: NR-23, a: Sjö, b: Sjö}
+  - {id: NR-24, a: Äng, b: Äng}
+  - {id: NR-25, a: Skog, b: Sjö}
+  - {id: NR-26, a: Skog, b: Äng}
+  - {id: NR-27, a: Skog, b: Berg}
+  - {id: NR-28, a: Skog, b: Våtmark}
+  - {id: NR-29, a: Sjö, b: Äng}
+  - {id: NR-30, a: Sjö, b: Våtmark}
+  - {id: NR-31, a: Äng, b: Våtmark}
+  - {id: NR-32, a: Berg, b: Våtmark}
+
+player_count_sets:
+  2_players:
+    tile_ids: [NR-01, NR-02, NR-04, NR-05, NR-07, NR-08, NR-10, NR-12, NR-14, NR-15, NR-16, NR-18, NR-19, NR-22, NR-23, NR-24]
+  3_players:
+    tile_ids: [NR-01, NR-02, NR-03, NR-04, NR-05, NR-06, NR-07, NR-08, NR-09, NR-10, NR-11, NR-12, NR-13, NR-14, NR-15, NR-16, NR-17, NR-18, NR-19, NR-20, NR-21, NR-22, NR-23, NR-24]
+  4_players:
+    tile_ids: [NR-01, NR-02, NR-03, NR-04, NR-05, NR-06, NR-07, NR-08, NR-09, NR-10, NR-11, NR-12, NR-13, NR-14, NR-15, NR-16, NR-17, NR-18, NR-19, NR-20, NR-21, NR-22, NR-23, NR-24, NR-25, NR-26, NR-27, NR-28, NR-29, NR-30, NR-31, NR-32]

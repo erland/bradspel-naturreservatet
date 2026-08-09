@@ -1,0 +1,25 @@
+animals:
+  - id: groda
+    name: Groda
+    points: 2
+    requirement: "Sjö intill Våtmark."
+  - id: radjur
+    name: Rådjur
+    points: 2
+    requirement: "Äng intill Skog."
+  - id: baver
+    name: Bäver
+    points: 4
+    requirement: "Två Sjö intill varandra; minst en intill Skog."
+  - id: trana
+    name: Trana
+    points: 4
+    requirement: "En Våtmark intill både Äng och Sjö."
+  - id: lo
+    name: Lo
+    points: 5
+    requirement: "Ett Berg intill minst två olika Skog."
+  - id: fiskgjuse
+    name: Fiskgjuse
+    points: 6
+    requirement: "En Sjö omgiven på fyra sidor; minst en sida är Skog."

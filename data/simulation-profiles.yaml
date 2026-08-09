@@ -1,0 +1,11 @@
+profiles:
+  random:
+    description: Väljer slumpmässigt bland lagliga drag.
+  greedy:
+    description: Prioriterar omedelbara djurpoäng och bonusar.
+  balanced:
+    description: Värderar omedelbara poäng, framtida djurmöjligheter, variation och kompakt form.
+simulation:
+  default_games: 250
+  default_seed: 20260710
+  players: 2

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-24 -24 48 48">
+  <rect x="-18" y="-18" width="36" height="36" rx="5"
+        fill="#FFFFFF" stroke="#7A7A7A" stroke-width="2"
+        stroke-dasharray="4 3"/>
+  <text x="0" y="10" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="28"
+        font-weight="700" fill="#666666">?</text>
+</svg>

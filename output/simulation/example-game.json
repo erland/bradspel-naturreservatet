@@ -1,0 +1,574 @@
+{
+  "seed": 20260710,
+  "used_tile_ids": [
+    "NR-10",
+    "NR-05",
+    "NR-07",
+    "NR-14",
+    "NR-24",
+    "NR-19",
+    "NR-02",
+    "NR-01",
+    "NR-16",
+    "NR-08",
+    "NR-23",
+    "NR-22",
+    "NR-12",
+    "NR-15",
+    "NR-18",
+    "NR-04"
+  ],
+  "scores": {
+    "Spelare A": 29,
+    "Spelare B": 29
+  },
+  "score_breakdown": {
+    "Spelare A": {
+      "animal_score": 23,
+      "four_animals_bonus": 3,
+      "all_terrains_bonus": 2,
+      "area_bonus": 1,
+      "animals": [
+        "baver",
+        "fiskgjuse",
+        "groda",
+        "lo",
+        "radjur",
+        "trana"
+      ],
+      "width": 6,
+      "height": 3,
+      "density": 0.8888888888888888
+    },
+    "Spelare B": {
+      "animal_score": 23,
+      "four_animals_bonus": 3,
+      "all_terrains_bonus": 2,
+      "area_bonus": 1,
+      "animals": [
+        "baver",
+        "fiskgjuse",
+        "groda",
+        "lo",
+        "radjur",
+        "trana"
+      ],
+      "width": 4,
+      "height": 4,
+      "density": 1.0
+    }
+  },
+  "turns": [
+    {
+      "turn_number": 1,
+      "player": "Spelare A",
+      "open_before": [
+        "NR-07",
+        "NR-14",
+        "NR-24",
+        "NR-10"
+      ],
+      "selected_tile": "NR-10",
+      "placement": {
+        "cells": [
+          {
+            "x": 0,
+            "y": 0,
+            "terrain": "Skog"
+          },
+          {
+            "x": 1,
+            "y": 0,
+            "terrain": "Våtmark"
+          }
+        ]
+      },
+      "claimed_animal": null,
+      "open_after": [
+        "NR-07",
+        "NR-14",
+        "NR-24",
+        "NR-05"
+      ],
+      "deck_remaining": 11
+    },
+    {
+      "turn_number": 2,
+      "player": "Spelare B",
+      "open_before": [
+        "NR-07",
+        "NR-14",
+        "NR-24",
+        "NR-05"
+      ],
+      "selected_tile": "NR-05",
+      "placement": {
+        "cells": [
+          {
+            "x": 0,
+            "y": 0,
+            "terrain": "Skog"
+          },
+          {
+            "x": -1,
+            "y": 0,
+            "terrain": "Äng"
+          }
+        ]
+      },
+      "claimed_animal": "radjur",
+      "open_after": [
+        "NR-07",
+        "NR-14",
+        "NR-24",
+        "NR-04"
+      ],
+      "deck_remaining": 10
+    },
+    {
+      "turn_number": 3,
+      "player": "Spelare A",
+      "open_before": [
+        "NR-07",
+        "NR-14",
+        "NR-24",
+        "NR-04"
+      ],
+      "selected_tile": "NR-07",
+      "placement": {
+        "cells": [
+          {
+            "x": 1,
+            "y": -1,
+            "terrain": "Skog"
+          },
+          {
+            "x": 0,
+            "y": -1,
+            "terrain": "Berg"
+          }
+        ]
+      },
+      "claimed_animal": "lo",
+      "open_after": [
+        "NR-14",
+        "NR-24",
+        "NR-04",
+        "NR-02"
+      ],
+      "deck_remaining": 9
+    },
+    {
+      "turn_number": 4,
+      "player": "Spelare B",
+      "open_before": [
+        "NR-14",
+        "NR-24",
+        "NR-04",
+        "NR-02"
+      ],
+      "selected_tile": "NR-14",
+      "placement": {
+        "cells": [
+          {
+            "x": 1,
+            "y": 0,
+            "terrain": "Sjö"
+          },
+          {
+            "x": 2,
+            "y": 0,
+            "terrain": "Berg"
+          }
+        ]
+      },
+      "claimed_animal": null,
+      "open_after": [
+        "NR-24",
+        "NR-04",
+        "NR-02",
+        "NR-08"
+      ],
+      "deck_remaining": 8
+    },
+    {
+      "turn_number": 5,
+      "player": "Spelare A",
+      "open_before": [
+        "NR-24",
+        "NR-04",
+        "NR-02",
+        "NR-08"
+      ],
+      "selected_tile": "NR-24",
+      "placement": {
+        "cells": [
+          {
+            "x": -1,
+            "y": -1,
+            "terrain": "Äng"
+          },
+          {
+            "x": -1,
+            "y": 0,
+            "terrain": "Äng"
+          }
+        ]
+      },
+      "claimed_animal": "radjur",
+      "open_after": [
+        "NR-04",
+        "NR-02",
+        "NR-08",
+        "NR-19"
+      ],
+      "deck_remaining": 7
+    },
+    {
+      "turn_number": 6,
+      "player": "Spelare B",
+      "open_before": [
+        "NR-04",
+        "NR-02",
+        "NR-08",
+        "NR-19"
+      ],
+      "selected_tile": "NR-19",
+      "placement": {
+        "cells": [
+          {
+            "x": 2,
+            "y": -1,
+            "terrain": "Äng"
+          },
+          {
+            "x": 1,
+            "y": -1,
+            "terrain": "Våtmark"
+          }
+        ]
+      },
+      "claimed_animal": "trana",
+      "open_after": [
+        "NR-04",
+        "NR-02",
+        "NR-08",
+        "NR-22"
+      ],
+      "deck_remaining": 6
+    },
+    {
+      "turn_number": 7,
+      "player": "Spelare A",
+      "open_before": [
+        "NR-04",
+        "NR-02",
+        "NR-08",
+        "NR-22"
+      ],
+      "selected_tile": "NR-02",
+      "placement": {
+        "cells": [
+          {
+            "x": 2,
+            "y": -1,
+            "terrain": "Skog"
+          },
+          {
+            "x": 2,
+            "y": 0,
+            "terrain": "Sjö"
+          }
+        ]
+      },
+      "claimed_animal": "groda",
+      "open_after": [
+        "NR-04",
+        "NR-08",
+        "NR-22",
+        "NR-01"
+      ],
+      "deck_remaining": 5
+    },
+    {
+      "turn_number": 8,
+      "player": "Spelare B",
+      "open_before": [
+        "NR-04",
+        "NR-08",
+        "NR-22",
+        "NR-01"
+      ],
+      "selected_tile": "NR-01",
+      "placement": {
+        "cells": [
+          {
+            "x": 0,
+            "y": 1,
+            "terrain": "Skog"
+          },
+          {
+            "x": 1,
+            "y": 1,
+            "terrain": "Sjö"
+          }
+        ]
+      },
+      "claimed_animal": "fiskgjuse",
+      "open_after": [
+        "NR-04",
+        "NR-08",
+        "NR-22",
+        "NR-16"
+      ],
+      "deck_remaining": 4
+    },
+    {
+      "turn_number": 9,
+      "player": "Spelare A",
+      "open_before": [
+        "NR-04",
+        "NR-08",
+        "NR-22",
+        "NR-16"
+      ],
+      "selected_tile": "NR-16",
+      "placement": {
+        "cells": [
+          {
+            "x": -2,
+            "y": -1,
+            "terrain": "Våtmark"
+          },
+          {
+            "x": -2,
+            "y": 0,
+            "terrain": "Sjö"
+          }
+        ]
+      },
+      "claimed_animal": "trana",
+      "open_after": [
+        "NR-04",
+        "NR-08",
+        "NR-22",
+        "NR-23"
+      ],
+      "deck_remaining": 3
+    },
+    {
+      "turn_number": 10,
+      "player": "Spelare B",
+      "open_before": [
+        "NR-04",
+        "NR-08",
+        "NR-22",
+        "NR-23"
+      ],
+      "selected_tile": "NR-08",
+      "placement": {
+        "cells": [
+          {
+            "x": -1,
+            "y": -1,
+            "terrain": "Skog"
+          },
+          {
+            "x": 0,
+            "y": -1,
+            "terrain": "Berg"
+          }
+        ]
+      },
+      "claimed_animal": "lo",
+      "open_after": [
+        "NR-04",
+        "NR-22",
+        "NR-23",
+        "NR-15"
+      ],
+      "deck_remaining": 2
+    },
+    {
+      "turn_number": 11,
+      "player": "Spelare A",
+      "open_before": [
+        "NR-04",
+        "NR-22",
+        "NR-23",
+        "NR-15"
+      ],
+      "selected_tile": "NR-23",
+      "placement": {
+        "cells": [
+          {
+            "x": 3,
+            "y": -1,
+            "terrain": "Sjö"
+          },
+          {
+            "x": 3,
+            "y": 0,
+            "terrain": "Sjö"
+          }
+        ]
+      },
+      "claimed_animal": "baver",
+      "open_after": [
+        "NR-04",
+        "NR-22",
+        "NR-15",
+        "NR-12"
+      ],
+      "deck_remaining": 1
+    },
+    {
+      "turn_number": 12,
+      "player": "Spelare B",
+      "open_before": [
+        "NR-04",
+        "NR-22",
+        "NR-15",
+        "NR-12"
+      ],
+      "selected_tile": "NR-22",
+      "placement": {
+        "cells": [
+          {
+            "x": 1,
+            "y": 2,
+            "terrain": "Skog"
+          },
+          {
+            "x": 0,
+            "y": 2,
+            "terrain": "Skog"
+          }
+        ]
+      },
+      "claimed_animal": "baver",
+      "open_after": [
+        "NR-04",
+        "NR-15",
+        "NR-12",
+        "NR-18"
+      ],
+      "deck_remaining": 0
+    },
+    {
+      "turn_number": 13,
+      "player": "Spelare A",
+      "open_before": [
+        "NR-04",
+        "NR-15",
+        "NR-12",
+        "NR-18"
+      ],
+      "selected_tile": "NR-12",
+      "placement": {
+        "cells": [
+          {
+            "x": 2,
+            "y": 1,
+            "terrain": "Äng"
+          },
+          {
+            "x": 3,
+            "y": 1,
+            "terrain": "Sjö"
+          }
+        ]
+      },
+      "claimed_animal": "fiskgjuse",
+      "open_after": [
+        "NR-04",
+        "NR-15",
+        "NR-18"
+      ],
+      "deck_remaining": 0
+    },
+    {
+      "turn_number": 14,
+      "player": "Spelare B",
+      "open_before": [
+        "NR-04",
+        "NR-15",
+        "NR-18"
+      ],
+      "selected_tile": "NR-15",
+      "placement": {
+        "cells": [
+          {
+            "x": 2,
+            "y": 1,
+            "terrain": "Sjö"
+          },
+          {
+            "x": 2,
+            "y": 2,
+            "terrain": "Våtmark"
+          }
+        ]
+      },
+      "claimed_animal": "groda",
+      "open_after": [
+        "NR-04",
+        "NR-18"
+      ],
+      "deck_remaining": 0
+    },
+    {
+      "turn_number": 15,
+      "player": "Spelare A",
+      "open_before": [
+        "NR-04",
+        "NR-18"
+      ],
+      "selected_tile": "NR-18",
+      "placement": {
+        "cells": [
+          {
+            "x": -1,
+            "y": 1,
+            "terrain": "Berg"
+          },
+          {
+            "x": -2,
+            "y": 1,
+            "terrain": "Äng"
+          }
+        ]
+      },
+      "claimed_animal": null,
+      "open_after": [
+        "NR-04"
+      ],
+      "deck_remaining": 0
+    },
+    {
+      "turn_number": 16,
+      "player": "Spelare B",
+      "open_before": [
+        "NR-04"
+      ],
+      "selected_tile": "NR-04",
+      "placement": {
+        "cells": [
+          {
+            "x": -1,
+            "y": 1,
+            "terrain": "Skog"
+          },
+          {
+            "x": -1,
+            "y": 2,
+            "terrain": "Äng"
+          }
+        ]
+      },
+      "claimed_animal": null,
+      "open_after": [],
+      "deck_remaining": 0
+    }
+  ]
+}

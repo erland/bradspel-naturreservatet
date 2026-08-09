@@ -1,0 +1,28 @@
+{
+  "games": 250,
+  "player_results": 500,
+  "seed_start": 20260710,
+  "profiles": [
+    "balanced",
+    "balanced"
+  ],
+  "mean_score": 28.408,
+  "median_score": 29.0,
+  "min_score": 19,
+  "max_score": 31,
+  "tie_rate": 0.32,
+  "winner_counts": {
+    "Spelare A": 111,
+    "Spelare B": 59
+  },
+  "animal_rates": {
+    "baver": 0.978,
+    "fiskgjuse": 0.992,
+    "groda": 0.95,
+    "lo": 0.974,
+    "radjur": 1.0,
+    "trana": 0.998
+  },
+  "mean_animals": 5.892,
+  "mean_density": 0.847269
+}
