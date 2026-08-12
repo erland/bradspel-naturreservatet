@@ -4,10 +4,9 @@
 Fallback:
 - data/game.yaml -> game.version
 
-Explicit CI/release override:
+Explicit override:
 - NATURRESERVATET_VERSION, usually set by the release workflow from a git tag.
 
-Important:
 Do not read GITHUB_REF_NAME implicitly. In pull request workflows GitHub may set
 it to values such as "2/merge", which are not semantic versions.
 """
@@ -37,7 +36,6 @@ def get_build_version(root: Path = ROOT) -> str:
     override = os.environ.get("NATURRESERVATET_VERSION")
     if override:
         return normalize_version(override)
-
     game = yaml.safe_load((root / "data/game.yaml").read_text(encoding="utf-8"))["game"]
     return normalize_version(str(game["version"]))
 

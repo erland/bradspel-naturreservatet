@@ -145,3 +145,9 @@
 - `scripts/build_version.py` ignorerar nu `GITHUB_REF_NAME` automatiskt.
 - Endast `NATURRESERVATET_VERSION` används som explicit override.
 - Lade till regressionstest för GitHub PR-ref som `2/merge`.
+
+## v0.3.8 – valideringsfix för versionsregressionstest
+
+- Tog bort literal semver-exempel ur `tests/test_build_version.py`.
+- Testet konstruerar nu exempelversioner dynamiskt så versionsvalideraren inte flaggar testfilen.
+- Bekräftade att `build_print.py` och `validate_project.py` fungerar när `GITHUB_REF_NAME=2/merge`.
