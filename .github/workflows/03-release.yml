@@ -1,0 +1,48 @@
+name: Release Print Package
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out tagged revision
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Install Python dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Validate project
+        run: python scripts/validate_project.py .
+
+      - name: Build release package
+        run: python scripts/package_release.py --version "${GITHUB_REF_NAME}" --output-dir "${RUNNER_TEMP}/naturreservatet-release"
+
+      - name: Create or update GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="${GITHUB_REF_NAME}"
+          assets=(
+            "${RUNNER_TEMP}"/naturreservatet-release/*.zip
+            "${RUNNER_TEMP}"/naturreservatet-release/naturreservatet-"${tag}"/print/pdf/*.pdf
+          )
+          if gh release view "${tag}" >/dev/null 2>&1; then
+            gh release upload "${tag}" "${assets[@]}" --clobber
+          else
+            gh release create "${tag}" "${assets[@]}"               --title "${tag}"               --generate-notes
+          fi

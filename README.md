@@ -4,7 +4,7 @@ Ett lätt tile-placement-spel för 2–4 spelare där varje spelare bygger ett e
 
 ## Aktuell version
 
-v0.3.3 – speltestbas med spelmotor för 2–4 spelare
+v0.3.4 – speltestbas med GitHub Actions, releaseflöde och spelmotor
 
 ## Spelram
 
@@ -28,14 +28,16 @@ v0.3.3 – speltestbas med spelmotor för 2–4 spelare
 ```bash
 python scripts/build_landscape_tiles.py
 python scripts/build_reference_card_v2.py
-python scripts/validate_project.py
+python scripts/build_score_sheets.py
+python scripts/build_print.py --output-dir /tmp/naturreservatet-preview
+python scripts/validate_project.py .
 ```
 
 ## Aktuell utskriftsoutput
 
-- `output/print/landskapsbrickor-70x35mm-v0.3.0.pdf`
-- `output/print/reference-card-a6-v2-v0.3.0.pdf`
-- `output/print/reference-card-a6-v2-a4-4up-v0.3.0.pdf`
+- `output/print/landskapsbrickor-70x35mm-v0.3.4.pdf`
+- `output/print/reference-card-a6-v2-v0.3.4.pdf`
+- `output/print/reference-card-a6-v2-a4-4up-v0.3.4.pdf`
 - `output/print/score-sheet-a6.pdf`
 - `output/print/score-sheets-a4.pdf`
 
