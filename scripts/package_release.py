@@ -8,11 +8,11 @@ import shutil
 import subprocess
 import sys
 import zipfile
-import yaml
+
+from build_version import get_build_version
 
 ROOT = Path(__file__).resolve().parents[1]
-GAME = yaml.safe_load((ROOT / "data/game.yaml").read_text(encoding="utf-8"))["game"]
-VERSION = str(GAME["version"])
+VERSION = get_build_version(ROOT)
 RELEASE_ROOT = ROOT / "release" / f"v{VERSION}"
 PRINT_OUT = ROOT / "output" / "print"
 

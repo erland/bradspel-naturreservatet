@@ -1,4 +1,4 @@
-# GitHub Actions och release v0.3.5
+# GitHub Actions och release
 
 ## 01 Validate
 
@@ -27,7 +27,9 @@ Bygger och laddar upp artifactet `naturreservatet-print-preview` med:
 
 ## 03 Release Print Package
 
-Körs när en tagg som `v0.3.5` pushas.
+Körs när en tagg som `vX.Y.Z` pushas.
+
+GitHub-taggen skickas till byggscriptet som `NATURRESERVATET_VERSION`.
 
 Skapar:
 

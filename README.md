@@ -2,10 +2,6 @@
 
 Ett lätt tile-placement-spel för 2–4 spelare där varje spelare bygger ett eget naturreservat och skapar livsmiljöer för djur.
 
-## Aktuell version
-
-v0.3.5 – GitHub Actions med Pandoc-regelbok och ren output-policy
-
 ## Spelram
 
 - 2–4 spelare
@@ -16,58 +12,36 @@ v0.3.5 – GitHub Actions med Pandoc-regelbok och ren output-policy
 ## Viktiga källfiler
 
 - `docs/rulebook.md` – aktuella regler
-- `data/game.yaml` – spelmetadata
+- `data/game.yaml` – spelmetadata och fallback-version
 - `data/tiles.yaml` – brickor och spelaruppsättningar
 - `data/animals.yaml` – djurkrav och poäng
 - `data/style.yaml` – färger, ikoner och komponentmått
 - `data/reference-card-v2.yaml` – visuella exempel på djurkraven
 - `assets/icons/` – återanvändbara SVG-ikoner
 
-## Bygga output
+## Bygga printmaterial
 
 ```bash
-python scripts/build_landscape_tiles.py
-python scripts/build_reference_card_v2.py
-python scripts/build_score_sheets.py
-python scripts/build_print.py --output-dir /tmp/naturreservatet-preview
-python scripts/validate_project.py .
+python scripts/build_print.py
 ```
 
-## Aktuell utskriftsoutput
-
-- `output/print/landskapsbrickor-70x35mm-v0.3.4.pdf`
-- `output/print/reference-card-a6-v2-v0.3.4.pdf`
-- `output/print/reference-card-a6-v2-a4-4up-v0.3.4.pdf`
-- `output/print/score-sheet-a6.pdf`
-- `output/print/score-sheets-a4.pdf`
-
-Filer i `output/` är genererade. Ändra källorna i `data/`, `docs/`, `assets/`, `templates/` eller `scripts/`.
-
-## Spelmotor
-
-Se `docs/SPELMOTORPLAN.md` och `scripts/simulator/README.md`.
-
-Snabbtest:
+Releasebyggen kan styra versionsnamn via miljövariabel:
 
 ```bash
+NATURRESERVATET_VERSION=vX.Y.Z python scripts/build_print.py
+```
+
+Om ingen miljövariabel finns används fallback-versionen i `data/game.yaml`.
+
+## Testa projektet
+
+```bash
+python scripts/build_print.py
+python scripts/validate_project.py
 python -m unittest discover -s tests -v
-python -m scripts.simulator.simulate --games 250
 ```
-
-## Fler­spelar­simulering v0.3.3
-
-- `scripts/simulator/simulate_multiplayer.py`
-- `output/simulation-v0.3.3/multiplayer-summary.json`
-- `output/simulation-v0.3.3/multiplayer-report.md`
-- `output/simulation-v0.3.3/analysis.md`
 
 ## Källa och genererad output
 
 `output/` och `release/` är genererade kataloger och behöver normalt inte checkas in.
 Se `docs/repository-policy.md`.
-
-Bygg allt printmaterial lokalt med:
-
-```bash
-python scripts/build_print.py
-```

@@ -1,4 +1,4 @@
-# Visuellt referenskort v0.3.0
+# Visuellt referenskort
 
 Referenskortet visar alla sex djurkrav med samma färger och SVG-ikoner som landskapsbrickorna.
 
@@ -10,7 +10,7 @@ Referenskortet visar alla sex djurkrav med samma färger och SVG-ikoner som land
 
 ## Genererad output
 
-- `output/print/reference-card-a6-v2-v0.3.0.pdf`
-- `output/print/reference-card-a6-v2-a4-4up-v0.3.0.pdf`
+- `output/print/reference-card-a6-v2-aktuell build-version.pdf`
+- `output/print/reference-card-a6-v2-a4-4up-aktuell build-version.pdf`
 
 Källdata finns i `data/reference-card-v2.yaml`.

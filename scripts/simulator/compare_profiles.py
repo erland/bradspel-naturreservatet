@@ -77,7 +77,7 @@ def run_batch(games: int = 300, seed: int = 20260710) -> dict:
     return results
 
 if __name__ == "__main__":
-    output = ROOT / "output/simulation-v0.3.2"
+    output = ROOT / "output/simulation-turordning"
     output.mkdir(parents=True, exist_ok=True)
     results = run_batch()
     (output / "profile-comparison.json").write_text(

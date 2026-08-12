@@ -1,4 +1,4 @@
-# Repository policy v0.3.5
+# Repository policy
 
 ## Källa
 
@@ -30,12 +30,22 @@ python scripts/build_print.py
 python scripts/package_release.py
 ```
 
-## Regelbok
+## Versioner
 
-Regelbokens källa är `docs/rulebook.md`.
-
-PDF-versionen byggs med Pandoc till:
+Fallback-versionen finns i:
 
 ```text
-output/print/regelbok-v0.3.5.pdf
+data/game.yaml
 ```
+
+Vid GitHub-release kan git-taggen ersätta fallback-versionen genom miljövariabeln `NATURRESERVATET_VERSION`.
+
+## Regelbok
+
+Regelbokens källa är:
+
+```text
+docs/rulebook.md
+```
+
+PDF-versionen byggs med Pandoc till `output/print/`.

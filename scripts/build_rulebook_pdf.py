@@ -5,11 +5,12 @@ from __future__ import annotations
 from pathlib import Path
 import shutil
 import subprocess
-import yaml
+
+from build_version import get_build_version, get_game_title
 
 ROOT = Path(__file__).resolve().parents[1]
-GAME = yaml.safe_load((ROOT / "data/game.yaml").read_text(encoding="utf-8"))["game"]
-VERSION = str(GAME["version"])
+VERSION = get_build_version(ROOT)
+TITLE = get_game_title(ROOT)
 SOURCE = ROOT / "docs/rulebook.md"
 OUT_DIR = ROOT / "output/print"
 OUT = OUT_DIR / f"regelbok-v{VERSION}.pdf"
@@ -37,7 +38,7 @@ def main() -> None:
         "-V", "colorlinks=true",
         "-V", "linkcolor=black",
         "-V", "urlcolor=black",
-        "--metadata", f"title=Naturreservatet regelbok v{VERSION}",
+        "--metadata", f"title={TITLE} regelbok v{VERSION}",
     ]
     subprocess.run(cmd, check=True)
     print(OUT)

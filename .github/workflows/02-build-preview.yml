@@ -2,24 +2,41 @@ name: "02 Build Print Preview"
 
 on:
   workflow_dispatch:
+    inputs:
+      build_version:
+        description: "Optional preview version. Leave empty to use data/game.yaml."
+        required: false
+        default: ""
 
 jobs:
   build-preview:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - name: Install system dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y pandoc texlive-xetex texlive-latex-recommended texlive-fonts-recommended fonts-dejavu
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
       - name: Install Python dependencies
         run: pip install -r requirements.txt
+
       - name: Build printable PDFs
+        env:
+          NATURRESERVATET_VERSION: ${{ inputs.build_version }}
         run: python scripts/build_print.py
+
+      - name: Validate preview
+        env:
+          NATURRESERVATET_VERSION: ${{ inputs.build_version }}
+        run: python scripts/validate_project.py
+
       - name: Upload print preview
         uses: actions/upload-artifact@v4
         with:

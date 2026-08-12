@@ -1,4 +1,4 @@
-# Naturreservatet v0.3.5
+# Naturreservatet
 
 Ett lätt tile-placement-spel för 2–4 spelare.
 

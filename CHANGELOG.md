@@ -130,3 +130,12 @@
 - Uppdaterade preview- och release-workflows så regelboken ingår.
 - Lade till `.gitignore` för genererade kataloger.
 - Dokumenterade repository-policy för källa kontra output.
+
+## v0.3.6 – centraliserad versionshantering
+
+- Flyttade manuell fallback-version till `data/game.yaml`.
+- Tog bort versionsnummer ur regelbok, README, projektstatus, style-data och referenskortsdata.
+- Lade till `scripts/build_version.py`.
+- Lät releasebyggen använda git-taggen via `NATURRESERVATET_VERSION`.
+- Uppdaterade preview-workflow med valfri preview-version.
+- Lade till validering mot oavsiktligt hårdkodade versionsnummer i källfiler.

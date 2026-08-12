@@ -3,11 +3,13 @@
 from __future__ import annotations
 
 from pathlib import Path
+import argparse
 import json
 import subprocess
 import sys
-import yaml
 from pypdf import PdfReader
+
+from build_version import get_build_version, get_game_title
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "output/print"
@@ -19,9 +21,12 @@ def pdf_pages(path: Path) -> int:
     return len(PdfReader(str(path)).pages)
 
 def main() -> None:
-    game = yaml.safe_load((ROOT / "data/game.yaml").read_text(encoding="utf-8"))["game"]
-    version = str(game["version"])
-    title = game.get("title", "Naturreservatet")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--root", default=str(ROOT))
+    args = parser.parse_args()
+
+    version = get_build_version(ROOT)
+    title = get_game_title(ROOT)
     OUT.mkdir(parents=True, exist_ok=True)
 
     run("build_landscape_tiles.py")
@@ -46,10 +51,7 @@ def main() -> None:
         "game": title,
         "version": version,
         "print_files": [
-            {
-                "path": str(path.relative_to(ROOT)),
-                "pages": pdf_pages(path),
-            }
+            {"path": str(path.relative_to(ROOT)), "pages": pdf_pages(path)}
             for path in files
         ],
     }

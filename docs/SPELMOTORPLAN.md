@@ -48,4 +48,4 @@ köra AI-spelare och sammanställa balanshypoteser utan att ersätta fysiska spe
 
 ## Status
 
-Första tvåspelarversionen implementeras i v0.3.1.
+Första tvåspelarversionen är implementerad i spelmotorn.

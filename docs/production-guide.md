@@ -1,4 +1,4 @@
-# Produktionsguide v0.3.0
+# Produktionsguide
 
 ## Utskriftsinställning
 
@@ -8,7 +8,7 @@ Skriv ut alla PDF-filer i **faktisk storlek (100 %)**. Använd inte ”anpassa t
 
 Fil:
 
-`output/print/landskapsbrickor-70x35mm-v0.3.0.pdf`
+`output/print/landskapsbrickor-70x35mm-aktuell build-version.pdf`
 
 - Liggande A4
 - 70 × 35 mm per bricka
@@ -31,8 +31,8 @@ NR-01–NR-32
 
 ## Referenskort
 
-- Ett A6-kort: `output/print/reference-card-a6-v2-v0.3.0.pdf`
-- Fyra kort på A4: `output/print/reference-card-a6-v2-a4-4up-v0.3.0.pdf`
+- Ett A6-kort: `output/print/reference-card-a6-v2-aktuell build-version.pdf`
+- Fyra kort på A4: `output/print/reference-card-a6-v2-a4-4up-aktuell build-version.pdf`
 
 ## Poängblad
 

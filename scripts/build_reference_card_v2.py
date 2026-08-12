@@ -9,12 +9,13 @@ from reportlab.lib import colors
 from reportlab.graphics import renderPDF
 from svglib.svglib import svg2rlg
 from pypdf import PdfReader, PdfWriter, Transformation
+from build_version import get_build_version
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = yaml.safe_load((ROOT/"data/reference-card-v2.yaml").read_text(encoding="utf-8"))
 STYLE = yaml.safe_load((ROOT/"data/style.yaml").read_text(encoding="utf-8"))
 ANIMALS = yaml.safe_load((ROOT/"data/animals.yaml").read_text(encoding="utf-8"))["animals"]
-VERSION = str(DATA["version"])
+VERSION = get_build_version(ROOT)
 OUT = ROOT/"output/print"
 OUT.mkdir(parents=True, exist_ok=True)
 

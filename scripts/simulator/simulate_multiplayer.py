@@ -73,7 +73,7 @@ def run_player_count(player_count: int, games: int, seed: int) -> dict:
     }
 
 if __name__ == "__main__":
-    output = ROOT / "output/simulation-v0.3.3"
+    output = ROOT / "output/simulation-multiplayer"
     output.mkdir(parents=True, exist_ok=True)
 
     results = {
@@ -86,7 +86,7 @@ if __name__ == "__main__":
         encoding="utf-8",
     )
 
-    lines = ["# Fler­spelar­analys v0.3.3", ""]
+    lines = ["# Fler­spelar­analys", ""]
     for key, data in results.items():
         lines += [
             f"## {key.replace('_', ' ')}",
