@@ -2,7 +2,7 @@
 
 ## Version
 
-v0.3.3
+v0.3.4
 
 ## Kort beskrivning
 
@@ -71,3 +71,12 @@ Redo för solo-genomgång och interna fysiska speltester.
 - Startspelaren roteras jämnt.
 - Sittplatsstatistik och djurfrekvenser rapporteras.
 - Motorn rekommenderas nu att frysas.
+
+## GitHub Actions v0.3.4
+
+- Lade till `.github/workflows/01-validate.yml`.
+- Lade till `.github/workflows/02-build-preview.yml`.
+- Lade till `.github/workflows/03-release.yml`.
+- Lade till byggscript för print-preview och releasepaket.
+- Lade till `requirements.txt`.
+- Validering, PDF-bygge och releasepaketering kan köras både lokalt och i GitHub Actions.

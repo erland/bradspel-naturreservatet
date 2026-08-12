@@ -109,3 +109,16 @@
 - Lade till roterande startspelare för fler spelare.
 - Kördes 30 verifierade tre­spelarpartier och 30 verifierade fyr­spelarpartier.
 - Lade till sittplats- och djurstatistik.
+
+## v0.3.4 – GitHub Actions och print-release
+
+- Införde `.github/workflows/` på samma nivå som `README.md`.
+- Lade till Validate-workflow för projektvalidering och tester.
+- Lade till Build Print Preview-workflow som publicerar ett samlat preview-artifact.
+- Lade till Release Print Package-workflow för `v*`-taggar.
+- Lade till `scripts/build_print.py`.
+- Lade till `scripts/package_release.py`.
+- Lade till `scripts/build_score_sheets.py`.
+- Gjorde landskapsbyggaren versions- och datadriven.
+- Utökade `scripts/validate_project.py` för CI.
+- Lade till `requirements.txt` och dokumentation för lokalt/GitHub-bygge.

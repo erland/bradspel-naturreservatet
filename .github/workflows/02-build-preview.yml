@@ -1,0 +1,39 @@
+name: Build Print Preview
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Install Python dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Validate project
+        run: python scripts/validate_project.py .
+
+      - name: Build print preview PDFs
+        run: python scripts/build_print.py --output-dir "${RUNNER_TEMP}/naturreservatet-print-preview"
+
+      - name: Upload print preview
+        uses: actions/upload-artifact@v7
+        with:
+          name: naturreservatet-print-preview
+          path: |
+            ${{ runner.temp }}/naturreservatet-print-preview/*.pdf
+            ${{ runner.temp }}/naturreservatet-print-preview/PRINT_MANIFEST.json
+          if-no-files-found: error
+          retention-days: 7

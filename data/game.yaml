@@ -1,6 +1,6 @@
 game:
   id: naturreservatet
-  version: 0.3.3
+  version: 0.3.4
   players:
   - 2
   - 3
