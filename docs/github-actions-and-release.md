@@ -1,66 +1,51 @@
-# GitHub Actions och releaseflöde
+# GitHub Actions och release
 
-Det här projektet använder tre workflows i `.github/workflows/`.
+## 01 Validate
 
-## 01-validate.yml
+Körs på pull request och push till `main`.
 
-Körs vid pull request och push till `main` när projektfiler ändras.
+Den bygger först all print-output och kör sedan:
 
-Kontrollerar:
+```bash
+python scripts/validate_project.py
+python -m unittest discover -s tests -v
+```
 
-- obligatoriska filer
-- YAML-konsistens
-- versionsnummer
-- 32 unika brickor
-- 16/24/32-brickorsuppsättningar
-- sex djur och sex referenskortsexempel
-- att print-PDF:er finns och är läsbara
-- automatiska spelmotortester
-
-## 02-build-preview.yml
+## 02 Build Print Preview
 
 Körs manuellt via `workflow_dispatch`.
 
-Bygger alla PDF:er som ska kunna skrivas ut och laddar upp ett gemensamt Actions-artifact:
-
-`naturreservatet-print-preview`
-
-Artifactet innehåller:
+Bygger och laddar upp artifactet `naturreservatet-print-preview` med:
 
 - landskapsbrickor
 - A6-referenskort
 - A4 med fyra referenskort
 - A6-poängblad
 - A4 med fyra poängblad
+- regelbok som PDF via Pandoc
 - `PRINT_MANIFEST.json`
 
-## 03-release.yml
+## 03 Release Print Package
 
-Körs när en tagg som börjar med `v` pushas, exempelvis:
+Körs när en tagg som `vX.Y.Z` pushas.
 
-```bash
-git tag v0.3.4
-git push origin v0.3.4
-```
+GitHub-taggen skickas till byggscriptet som `NATURRESERVATET_VERSION`.
 
-Workflowen:
+Skapar:
 
-1. validerar projektet
-2. bygger all print-output
-3. skapar ett rent releasepaket
-4. skapar eller uppdaterar GitHub Release
-5. laddar upp release-zip och PDF:er som separata assets
+- release-zip i `release/`
+- separata PDF-assets från `output/print/`
+- `PRINT_MANIFEST.json`
 
-## Lokala kommandon
+## Lokal körning
 
 ```bash
-python -m pip install -r requirements.txt
-python scripts/validate_project.py .
+python scripts/build_print.py
+python scripts/validate_project.py
 python -m unittest discover -s tests -v
-python scripts/build_print.py --output-dir /tmp/naturreservatet-preview
-python scripts/package_release.py --version v0.3.4 --output-dir /tmp/naturreservatet-release
+python scripts/package_release.py
 ```
 
-## Princip
+## Output-policy
 
-PDF-filer är rekommenderat printformat. SVG, YAML, Markdown och Python-script är källor eller källnära exportformat.
+`output/` och `release/` är genererade kataloger och ska normalt inte checkas in.

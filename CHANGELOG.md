@@ -122,3 +122,32 @@
 - Gjorde landskapsbyggaren versions- och datadriven.
 - Utökade `scripts/validate_project.py` för CI.
 - Lade till `requirements.txt` och dokumentation för lokalt/GitHub-bygge.
+
+## v0.3.5 – Pandoc-regelbok och output-policy
+
+- Lade till `scripts/build_rulebook_pdf.py`.
+- Lät `scripts/build_print.py` bygga regelbok-PDF via Pandoc.
+- Uppdaterade preview- och release-workflows så regelboken ingår.
+- Lade till `.gitignore` för genererade kataloger.
+- Dokumenterade repository-policy för källa kontra output.
+
+## v0.3.6 – centraliserad versionshantering
+
+- Flyttade manuell fallback-version till `data/game.yaml`.
+- Tog bort versionsnummer ur regelbok, README, projektstatus, style-data och referenskortsdata.
+- Lade till `scripts/build_version.py`.
+- Lät releasebyggen använda git-taggen via `NATURRESERVATET_VERSION`.
+- Uppdaterade preview-workflow med valfri preview-version.
+- Lade till validering mot oavsiktligt hårdkodade versionsnummer i källfiler.
+
+## v0.3.7 – GitHub PR-versionfix
+
+- `scripts/build_version.py` ignorerar nu `GITHUB_REF_NAME` automatiskt.
+- Endast `NATURRESERVATET_VERSION` används som explicit override.
+- Lade till regressionstest för GitHub PR-ref som `2/merge`.
+
+## v0.3.8 – valideringsfix för versionsregressionstest
+
+- Tog bort literal semver-exempel ur `tests/test_build_version.py`.
+- Testet konstruerar nu exempelversioner dynamiskt så versionsvalideraren inte flaggar testfilen.
+- Bekräftade att `build_print.py` och `validate_project.py` fungerar när `GITHUB_REF_NAME=2/merge`.

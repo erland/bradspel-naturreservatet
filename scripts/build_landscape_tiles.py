@@ -18,6 +18,7 @@ from pathlib import Path
 import re
 import yaml
 import cairosvg
+from build_version import get_build_version
 from pypdf import PdfReader, PdfWriter
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -74,7 +75,7 @@ def main() -> int:
     style = yaml.safe_load((ROOT / "data/style.yaml").read_text(encoding="utf-8"))
     tiles_data = yaml.safe_load((ROOT / "data/tiles.yaml").read_text(encoding="utf-8"))
 
-    version = str(game["version"])
+    version = get_build_version(ROOT)
     tiles = tiles_data["tiles"]
     pages = [tiles[i:i+12] for i in range(0, len(tiles), 12)]
 

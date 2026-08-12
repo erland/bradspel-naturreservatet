@@ -1,6 +1,6 @@
 game:
   id: naturreservatet
-  version: 0.3.4
+  version: 0.3.8
   players:
   - 2
   - 3
@@ -17,3 +17,4 @@ game:
     3: 24
     4: 32
   animal_count: 6
+  title: Naturreservatet

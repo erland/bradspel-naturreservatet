@@ -1,0 +1,15 @@
+# Generated build artifacts
+/output/
+/release/
+/dist/
+/build/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

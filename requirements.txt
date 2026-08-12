@@ -1,5 +1,10 @@
-cairosvg==2.7.1
-pypdf==5.1.0
+PyYAML
 PyYAML==6.0.2
+cairosvg
+cairosvg==2.7.1
+pypdf
+pypdf==5.1.0
+reportlab
 reportlab==4.2.5
+svglib
 svglib==1.5.1

@@ -1,9 +1,5 @@
 # Projektstatus
 
-## Version
-
-v0.3.4
-
 ## Kort beskrivning
 
 Naturreservatet är ett lätt tile-placement-spel där spelarna väljer öppna landskapsbrickor, bygger varsitt reservat och kryssar djur när nya brickor skapar rätt livsmiljöer.
@@ -17,7 +13,10 @@ Naturreservatet är ett lätt tile-placement-spel där spelarna väljer öppna l
 - Visuellt A6-referenskort
 - A6-poängblad och A4-ark med fyra poängblad
 - Återanvändbara SVG-ikoner
-- Fungerande generatorer för brickor och referenskort
+- Fungerande generatorer för print-PDF:er
+- Pandoc-bygge av regelbok
+- GitHub Actions för validering, preview och release
+- Spelmotor för 2–4 spelare
 - Projektvalidering
 
 ## Aktuell teststatus
@@ -39,44 +38,12 @@ Redo för solo-genomgång och interna fysiska speltester.
 - Minst ett fält på den nyplacerade brickan måste ingå i djurkravet.
 - Varje spelare får exakt 8 turer.
 - 2/3/4 spelare använder 16/24/32 brickor.
+- `output/` och `release/` är genererade artefakter.
+- Fallback-version finns i `data/game.yaml`; releaseversion kan komma från git-taggen.
 
 ## Rekommenderat nästa steg
 
-1. Genomför ett fysiskt tvåspelartest.
+1. Genomför ett fysiskt två- eller trespelartest.
 2. Logga djur, poäng, speltid och regelfrågor.
-3. Genomför därefter ett fyraspelartest.
+3. Genomför därefter ett fyraspelarstresstest.
 4. Ändra högst 1–3 saker efter varje test.
-
-## Spelmotor
-
-- [SPELMOTORPLAN] finns i `docs/SPELMOTORPLAN.md`.
-- Tvåspelarregelmotorn är implementerad.
-- Slumpmässig, kortsiktig och balanserad AI finns.
-- Seeds och fullständiga dragloggar stöds.
-- Automatiska tester verifierar djurkrav, placering och unika brickor.
-- En första körning med 250 partier finns i `output/simulation/`.
-
-## Spelmotor v0.3.2
-
-- Växlande startspelare.
-- Profiljämförelser mellan random, greedy och balanced.
-- 11 automatiska tester godkända.
-- Motorn rekommenderas nu att frysas inför fysiskt speltest.
-
-## Spelmotor v0.3.3
-
-- Generellt stöd för 2–4 spelare.
-- 24 respektive 32 unika brickor verifieras för 3 och 4 spelare.
-- Åtta turer per spelare verifieras.
-- Startspelaren roteras jämnt.
-- Sittplatsstatistik och djurfrekvenser rapporteras.
-- Motorn rekommenderas nu att frysas.
-
-## GitHub Actions v0.3.4
-
-- Lade till `.github/workflows/01-validate.yml`.
-- Lade till `.github/workflows/02-build-preview.yml`.
-- Lade till `.github/workflows/03-release.yml`.
-- Lade till byggscript för print-preview och releasepaket.
-- Lade till `requirements.txt`.
-- Validering, PDF-bygge och releasepaketering kan köras både lokalt och i GitHub Actions.
