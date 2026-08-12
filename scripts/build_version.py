@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 """Resolve Naturreservatet build version.
 
-Source fallback:
+Fallback:
 - data/game.yaml -> game.version
 
-CI/release override:
-- NATURRESERVATET_VERSION, often from a git tag such as vX.Y.Z
+Explicit CI/release override:
+- NATURRESERVATET_VERSION, usually set by the release workflow from a git tag.
 
-The returned version is normalized without a leading "v".
+Important:
+Do not read GITHUB_REF_NAME implicitly. In pull request workflows GitHub may set
+it to values such as "2/merge", which are not semantic versions.
 """
 from __future__ import annotations
 
@@ -21,6 +23,8 @@ VERSION_RE = re.compile(r"^\d+\.\d+\.\d+(?:[-+][0-9A-Za-z.-]+)?$")
 
 def normalize_version(value: str) -> str:
     version = str(value).strip()
+    if not version:
+        raise ValueError("Empty build version.")
     if version.startswith("refs/tags/"):
         version = version.removeprefix("refs/tags/")
     if version.startswith("v"):
@@ -30,7 +34,7 @@ def normalize_version(value: str) -> str:
     return version
 
 def get_build_version(root: Path = ROOT) -> str:
-    override = os.environ.get("NATURRESERVATET_VERSION") or os.environ.get("GITHUB_REF_NAME")
+    override = os.environ.get("NATURRESERVATET_VERSION")
     if override:
         return normalize_version(override)
 

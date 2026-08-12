@@ -139,3 +139,9 @@
 - Lät releasebyggen använda git-taggen via `NATURRESERVATET_VERSION`.
 - Uppdaterade preview-workflow med valfri preview-version.
 - Lade till validering mot oavsiktligt hårdkodade versionsnummer i källfiler.
+
+## v0.3.7 – GitHub PR-versionfix
+
+- `scripts/build_version.py` ignorerar nu `GITHUB_REF_NAME` automatiskt.
+- Endast `NATURRESERVATET_VERSION` används som explicit override.
+- Lade till regressionstest för GitHub PR-ref som `2/merge`.
