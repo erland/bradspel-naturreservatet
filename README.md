@@ -4,7 +4,7 @@ Ett lätt tile-placement-spel för 2–4 spelare där varje spelare bygger ett e
 
 ## Aktuell version
 
-v0.3.4 – speltestbas med GitHub Actions, releaseflöde och spelmotor
+v0.3.5 – GitHub Actions med Pandoc-regelbok och ren output-policy
 
 ## Spelram
 
@@ -60,3 +60,14 @@ python -m scripts.simulator.simulate --games 250
 - `output/simulation-v0.3.3/multiplayer-summary.json`
 - `output/simulation-v0.3.3/multiplayer-report.md`
 - `output/simulation-v0.3.3/analysis.md`
+
+## Källa och genererad output
+
+`output/` och `release/` är genererade kataloger och behöver normalt inte checkas in.
+Se `docs/repository-policy.md`.
+
+Bygg allt printmaterial lokalt med:
+
+```bash
+python scripts/build_print.py
+```

@@ -2,7 +2,7 @@
 
 ## Version
 
-v0.3.4
+v0.3.5
 
 ## Kort beskrivning
 
@@ -80,3 +80,11 @@ Redo för solo-genomgång och interna fysiska speltester.
 - Lade till byggscript för print-preview och releasepaket.
 - Lade till `requirements.txt`.
 - Validering, PDF-bygge och releasepaketering kan köras både lokalt och i GitHub Actions.
+
+## GitHub Actions v0.3.5
+
+- Preview bygger nu även regelboken som PDF via Pandoc.
+- Releasepaketet inkluderar regelbok-PDF.
+- `output/` och `release/` behandlas som genererade artefakter.
+- `.gitignore` ignorerar genererad output.
+- `docs/repository-policy.md` beskriver källa kontra output.

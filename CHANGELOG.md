@@ -122,3 +122,11 @@
 - Gjorde landskapsbyggaren versions- och datadriven.
 - Utökade `scripts/validate_project.py` för CI.
 - Lade till `requirements.txt` och dokumentation för lokalt/GitHub-bygge.
+
+## v0.3.5 – Pandoc-regelbok och output-policy
+
+- Lade till `scripts/build_rulebook_pdf.py`.
+- Lät `scripts/build_print.py` bygga regelbok-PDF via Pandoc.
+- Uppdaterade preview- och release-workflows så regelboken ingår.
+- Lade till `.gitignore` för genererade kataloger.
+- Dokumenterade repository-policy för källa kontra output.
